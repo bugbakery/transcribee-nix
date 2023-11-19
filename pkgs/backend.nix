@@ -53,6 +53,5 @@ python3Packages.buildPythonApplication rec {
 
     mkdir -p $out
     cp -r * .* $out/
-    cp -r ${./pages}/*.md $out/data/pages/
   '';
 }
