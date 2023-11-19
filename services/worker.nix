@@ -1,4 +1,4 @@
-{ config, pkgs, lib, ... }:
+{ config, pkgs, lib, options, ... }:
 with lib;
 let
   cfg = config.services.transcribee-worker;
@@ -16,7 +16,6 @@ in
     modelsDir = mkOption {
       type = types.str;
     };
-
   };
 
   config = mkIf cfg.enable
