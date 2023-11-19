@@ -4,6 +4,10 @@
     "config:recommended"
   ],
   "nix": {
-    "enabled": true
+    "enabled": true,
+    "fileMatch": [
+      "(^|/)flake\\.nix$",
+      "^common\\.nix$"
+    ]
   }
 }
