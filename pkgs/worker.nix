@@ -1,10 +1,4 @@
-{ lib
-, pkgs
-, config
-, fetchzip
-, options
-, ...
-}:
+{ config, pkgs, lib, fetchzip, ... }:
 with lib;
 let
   common = import ../common.nix {
