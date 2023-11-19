@@ -21,6 +21,7 @@ python3Packages.buildPythonApplication rec {
     python3Packages.pdm-pep517
     pkgs.git
     pkgs.cacert
+    pkgs.postgresql
   ];
 
   propagagedBuildInputs = with pkgs; [
@@ -32,6 +33,8 @@ python3Packages.buildPythonApplication rec {
 
     # provides libmagic
     file
+
+    openssl
   ];
 
   doCheck = false;
