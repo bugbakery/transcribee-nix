@@ -1,10 +1,4 @@
-{ lib
-, pkgs
-, config
-, fetchzip
-, options
-, ...
-}:
+{ config, pkgs, lib, ... }:
 with lib;
 let
   cfg = config.services.transcribee-worker;
