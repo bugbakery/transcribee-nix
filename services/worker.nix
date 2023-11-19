@@ -8,6 +8,7 @@
 with lib;
 let
   cfg = config.services.transcribee-worker;
+  worker = (pkgs.callPackage ../pkgs/worker {});
 in
 {
   options.services.transcribee-worker = {
