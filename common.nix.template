@@ -1,0 +1,15 @@
+{{fetchzip}}:
+
+{{
+  name = "transcribee";
+  version = "0.0.1";
+  source = fetchzip {{
+    url = "{source_url}";
+    hash = "{source_hash}";
+  }};
+  frontendSrc = fetchzip {{
+    url = "{frontend_url}";
+    hash = "{frontend_hash}";
+    stripRoot = false;
+  }};
+}}
