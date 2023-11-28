@@ -4,12 +4,12 @@
   name = "transcribee";
   version = "0.0.1";
   source = fetchzip {
-    url = "https://github.com/bugbakery/transcribee/archive/5270089c7678c5dc04f0b0e9e3edaa32c1a8342e.tar.gz";
-    hash = "sha256-SbEbbMfv2q0dh62Ddgw4aisBi6q4rBery0I0EFfYUbs=";
+    url = "https://github.com/bugbakery/transcribee/archive/e406b9f81c349b458eb66bf092ef524a5d7f9729.tar.gz";
+    hash = "sha256-uElj0Q91lIkduBkZu3U9xceXQ94eXWxl+Qo4ZbHMyT4=";
   };
   frontendSrc = fetchzip {
-    url = "https://github.com/bugbakery/transcribee-frontend-releases/raw/main/frontend-5270089c7678c5dc04f0b0e9e3edaa32c1a8342e.tar.gz";
-    hash = "sha256-5SrbbL8T0CWmKsnJKuaA4fqIpP72hIBsMywwFPwp1jQ=";
+    url = "https://github.com/bugbakery/transcribee-frontend-releases/raw/main/frontend-e406b9f81c349b458eb66bf092ef524a5d7f9729.tar.gz";
+    hash = "sha256-d9igCSP1izeV4ATyeva2bO4HsQoNKxq5ZLS9EPofvPM=";
     stripRoot = false;
   };
 }
