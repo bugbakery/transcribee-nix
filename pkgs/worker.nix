@@ -44,7 +44,7 @@ python3Packages.buildPythonApplication rec {
   (lib.optional stdenv.isDarwin darwin.apple_sdk.frameworks.Accelerate);
 
 
-  propagagedBuildInputs = with pkgs;
+  propagatedBuildInputs = with pkgs;
     [
       ffmpeg
     ];
