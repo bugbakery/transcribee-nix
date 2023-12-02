@@ -24,7 +24,7 @@ python3Packages.buildPythonApplication rec {
     pkgs.postgresql
   ];
 
-  propagagedBuildInputs = with pkgs; [
+  propagatedBuildInputs = with pkgs; [
     # for automerge-py
     libiconv
     rustc
